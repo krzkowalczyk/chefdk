@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Chef Software, Inc. <docker@chef.io>
+MAINTAINER Krzysztof Kowalczyk
 
 ARG CHANNEL=stable
 ARG CHEF_VERSION=3.8.14
