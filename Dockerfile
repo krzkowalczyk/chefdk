@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 MAINTAINER Krzysztof Kowalczyk
+LABEL chefdk="3.8.14"
+LABEL vagrant="2.2.5"
 
 ARG CHANNEL=stable
 ARG CHEF_VERSION=3.8.14
